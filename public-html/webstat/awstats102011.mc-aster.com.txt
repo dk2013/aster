@@ -1,0 +1,395 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201110 will be lost/reset.
+# Last config file used to build this data file was /usr/local/etc/awstats/awstats.mc-aster.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2002                
+POS_TIME 2661                
+POS_VISITOR 8713                
+POS_DAY 9642                
+POS_DOMAIN 3380                
+POS_LOGIN 3613                
+POS_ROBOT 3768                
+POS_WORMS 4076                
+POS_EMAILSENDER 4207                
+POS_EMAILRECEIVER 4350                
+POS_SESSION 10084               
+POS_SIDER 10291               
+POS_FILETYPES 4485                
+POS_DOWNLOADS 4710                
+POS_OS 4758                
+POS_BROWSER 4888                
+POS_SCREENSIZE 5098                
+POS_UNKNOWNREFERER 5172                
+POS_UNKNOWNREFERERBROWSER 5259                
+POS_ORIGIN 5341                
+POS_SEREFERRALS 5479                
+POS_PAGEREFS 5634                
+POS_SEARCHWORDS 7472                
+POS_KEYWORDS 7646                
+POS_MISC 2325                
+POS_ERRORS 7731                
+POS_CLUSTER 3469                
+POS_SIDER_404 7865                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20111101225006 1 0 11074924231504
+FirstTime 0
+LastTime 20111030161022
+LastUpdate 20111102001438 1 0 0 0 0
+TotalVisits 38                  
+TotalUnique 21                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 21                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 7 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 1 2 220
+1 0 0 0 3 3 909
+2 0 0 0 0 0 0
+3 0 0 0 4 5 1791
+4 0 0 0 1 3 430
+5 0 0 0 6 7 2927
+6 19 95 40735 2 3 1346
+7 14 35 27563 1 2 1113
+8 4 13 204574 4 5 20207
+9 146 810 16002647 33 42 85007
+10 389 1669 7672994 91 97 57792
+11 157 798 2710360 74 87 75427
+12 135 559 1573389 20 21 14177
+13 86 390 1564578 20 26 33048
+14 34 146 3026883 26 26 17165
+15 99 444 4600549 42 43 30171
+16 82 288 508553 10 13 7328
+17 31 197 2216007 26 28 21969
+18 31 100 418585 10 10 4626
+19 0 0 0 5 8 3123
+20 50 232 1127752 17 22 29785
+21 64 214 182373 1 3 872
+22 102 492 866080 6 10 2930
+23 12 36 46063 3 3 1146
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 1455 6518 42789685
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 5
+googlebot 13 8145 20111031095913 0
+yandex 8 7240 20111031234018 0
+netcraft 4 905 20111030102111 0
+surveybot 3 2715 20111030135127 0
+bot[\s_+:,\.\;\/\\-] 1 905 20111019070702 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+css 606 900986 0 0
+php 345 20286954 0 0
+png 1107 882988 0 0
+ico 14 33150 0 0
+html 66 218912 0 0
+js 3070 4967787 0 0
+Unknown 1044 15315597 0 0
+gif 266 183311 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 8
+winxp 99
+winlong 2
+win2003 1
+linuxdebian 1
+linuxubuntu 2
+linuxfedora 135
+linux 1
+win7 6277
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 11
+msie6.0 1
+firefox6.0.2 796
+chrome14.0.835.186 107
+mozilla 1
+msie7.0 6
+firefox3.6.3 1
+firefox3.6.9 1
+firefox7.0.1 4963
+opera9.80 412
+safari 1
+firefox3.6.23 229
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 59 71
+From1 0 0
+From2 1 1
+From3 1395 6446
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+yandex 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 34
+https://193.200.173.36/manager/ispmgr 815 3644
+https://193.200.173.36/manager/ 228 382
+https://193.200.173.36/myadmin/index.php 140 291
+https://193.200.173.36/myadmin/db_structure.php 90 976
+https://193.200.173.36/myadmin/ 32 162
+https://193.200.173.36/myadmin/navigation.php 19 91
+https://193.200.173.36/myadmin/main.php 12 304
+http://193.200.173.36/manager/ 10 10
+https://193.200.173.36/myadmin/import.php 6 51
+https://193.200.173.36/myadmin/db_import.php 6 49
+https://193.200.173.36/myadmin/server_import.php 1 9
+https://193.200.173.36/myadmin/tbl_sql.php 1 8
+https://193.200.173.36/manimg/sirius/main.css 0 100
+https://193.200.173.36/myadmin/server_engines.php 1 7
+http://e.mail.ru/cgi-bin/msglist 1 1
+https://193.200.173.36/myadmin/server_sql.php 3 31
+https://193.200.173.36/myadmin/tbl_structure.php 4 22
+https://193.200.173.36/myadmin/tbl_select.php 1 11
+https://193.200.173.36/myadmin/db_search.php 3 25
+https://193.200.173.36/myadmin/tbl_operations.php 0 6
+https://193.200.173.36/myadmin/server_variables.php 1 7
+https://193.200.173.36/myadmin/prefs_manage.php 3 23
+https://193.200.173.36/myadmin/db_qbe.php 2 32
+https://193.200.173.36/myadmin/prefs_forms.php 2 15
+https://193.200.173.36/myadmin/server_status.php 1 8
+https://193.200.173.36/myadmin/db_operations.php 1 10
+https://193.200.173.36/myadmin/server_databases.php 1 58
+http://www.webmasters-paradise.com 2 2
+https://193.200.173.36/myadmin/server_export.php 3 24
+https://193.200.173.36/myadmin/server_processlist.php 1 8
+https://193.200.173.36/myadmin/server_collations.php 1 7
+https://193.200.173.36/myadmin/sql.php 4 64
+https://193.200.173.36/myadmin/tbl_create.php 0 7
+https://193.200.173.36/webmail/src/login.php 0 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+content+coming+soon 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 3
+content 1
+coming 1
+soon 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+302 30 0
+400 10 4104
+500 296 240571
+404 74 15893
+301 3 717
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 21
+/robots.txt 29 -
+/manager/Configuration 1 -
+/admin/config.php 11 -
+/.well-known/autoconfig/mail/config-v1.1.xml 2 -
+/phpmyadmin//setup/config.php 3 -
+/admin/Y-ivrrecording.php 4 -
+/admin 1 -
+/Configuration 1 -
+/pma/translators.html 1 -
+/mail/index.php 1 -
+/mysql/translators.html 1 -
+/phpMyAdmin//setup/config.php 2 -
+/phpmyadmin/translators.html 1 -
+/phpMyAdmin/translators.html 1 -
+/translators.html 1 -
+/manage 1 -
+/phpmyadmin//scripts/setup.php 3 -
+/index 1 -
+/zbcpto 1 -
+/phpMyAdmin//scripts/setup.php 2 -
+/admin/cdr/counter.txt 6 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 21
+91.218.96.66 960 4406 24851015 20111021131414
+46.118.100.26 94 303 255211 20111014223320
+46.118.83.166 84 296 584922 20111013161137
+46.118.100.197 79 342 13791975 20111017072410
+81.90.236.120 60 327 1521818 20111021101407
+46.118.100.188 35 198 311617 20111021224010
+92.113.121.55 26 97 206213 20111013100807
+80.254.10.202 26 135 247622 20111013131731
+46.118.100.242 25 127 238868 20111013230843
+46.118.80.204 20 107 253556 20111010085605
+107.22.36.9 1 1 905 20111019204909
+46.118.100.200 8 22 49414 20111012222245
+72.94.249.38 1 1 905 20111023061912
+107.22.31.67 1 1 905 20111030161022
+38.99.82.235 2 2 1810 20111030133429
+46.118.81.180 17 116 442692 20111015103203
+69.58.178.57 2 2 1810 20111022094028
+46.118.100.203 11 32 25712 20111019071535
+173.255.247.205 1 1 905 20111025233624
+38.100.21.19 1 1 905 20111016070054
+93.80.239.80 1 1 905 20111022073156
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 16
+20111009 19 106 252705 1
+20111010 1 1 851 1
+20111012 8 22 49414 1
+20111013 350 1484 2940589 6
+20111014 181 575 474297 3
+20111015 313 1580 9787700 2
+20111016 61 248 13753009 3
+20111017 131 604 1974167 3
+20111018 54 308 6482195 1
+20111019 49 157 555306 4
+20111020 46 272 1775397 3
+20111021 234 1153 4736815 3
+20111022 3 3 2715 2
+20111023 1 1 905 1
+20111025 1 1 905 1
+20111030 3 3 2715 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 14
+5mn-15mn 2
+0s-30s 12
+15mn-30mn 2
+30s-2mn 1
+2mn-5mn 2
+30mn-1h 5
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 36
+/manager/ispmgr 1004 2685984 6 24
+/myadmin/db_structure.php 99 13509154 0 0
+/myadmin/navigation.php 85 2465065 0 0
+/manager/ 41 109451 18 0
+/myadmin/index.php 40 120672 0 0
+/mancgi/upload 37 2237 0 0
+/myadmin/main.php 27 821033 0 0
+/myadmin/js/messages.php 26 170434 0 4
+/myadmin/ 13 98601 5 0
+/ 12 10860 9 9
+/myadmin/server_sql.php 4 36816 0 0
+/myadmin/import.php 8 63073 0 1
+/myadmin/prefs_forms.php 2 85914 0 0
+/webmail/src/login.php 3 8688 0 0
+/myadmin/tbl_create.php 1 58847 0 0
+/myadmin/export.php 2 1802 0 0
+/myadmin/server_variables.php 1 127285 0 0
+/myadmin/tbl_structure.php 3 182052 0 0
+/myadmin/server_status.php 1 93736 0 0
+/mancgi/download 2 12627284 0 0
+/myadmin/db_search.php 3 53414 0 0
+/myadmin/sql.php 6 539357 0 0
+/mancgi/xml2csv 1 92 0 0
+/myadmin/prefs_manage.php 3 44697 0 0
+/myadmin/server_engines.php 1 9235 0 0
+/myadmin/server_export.php 3 121984 0 0
+/myadmin/db_qbe.php 5 1443309 0 0
+/myadmin/server_databases.php 9 90243 0 0
+/myadmin/tbl_operations.php 1 34178 0 0
+/myadmin/tbl_select.php 1 19570 0 0
+/myadmin/server_import.php 1 17087 0 0
+/myadmin/db_import.php 6 101524 0 0
+/myadmin/server_processlist.php 1 8708 0 0
+/myadmin/tbl_sql.php 1 11002 0 0
+/myadmin/server_collations.php 1 22396 0 0
+/myadmin/db_operations.php 1 25679 0 0
+END_SIDER

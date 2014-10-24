@@ -1,0 +1,35 @@
+AddDefaultCharset utf-8
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_URI} production/Tayna-Tibeta [NC]
+RewriteRule production/Tayna-Tibeta production/Tayna_Tibeta [L,NC,QSA]
+RewriteCond %{REQUEST_URI} production/Cordyceps-Lingzhi [NC]
+RewriteRule production/Cordyceps-Lingzhi production/Cordyceps_Lingzhi [L,NC,QSA]
+RewriteCond %{REQUEST_URI} production/Propolis-Lingzhi [NC]
+RewriteRule production/Propolis-Lingzhi production/Propolis_Lingzhi [L,NC,QSA]
+RewriteCond %{REQUEST_URI} production/Black-Pearl-Cordyceps [NC]
+RewriteRule production/Black-Pearl-Cordyceps production/Black_Pearl_Cordyceps [L,NC,QSA]
+RewriteCond %{REQUEST_URI} production/Ocean-Pride [NC]
+RewriteRule production/Ocean-Pride production/Ocean_Pride [L,NC,QSA]
+RewriteCond %{REQUEST_URI} production/Golden-Pearl [NC]
+RewriteRule production/Golden-Pearl production/Golden_Pearl [L,NC,QSA]
+RewriteCond %{REQUEST_URI} production/Light-Dream [NC]
+RewriteRule production/Light-Dream production/Light_Dream [L,NC,QSA]
+RewriteCond %{REQUEST_URI} production/Vital-Energy [NC]
+RewriteRule production/Vital-Energy production/Vital_Energy [L,NC,QSA]
+RewriteCond %{REQUEST_URI} production/Dragon-Power [NC]
+RewriteRule production/Dragon-Power production/Dragon_Power [L,NC,QSA]
+RewriteCond %{REQUEST_URI} production/First-Fort [NC]
+RewriteRule production/First-Fort production/First_Fort [L,NC,QSA]
+RewriteCond %{REQUEST_URI} production/Kings-Secret [NC]
+RewriteRule production/Kings-Secret production/Kings_Secret [L,NC,QSA]
+
+RewriteCond %{REQUEST_URI} articles/Health-Way-Year-Times [NC]
+RewriteRule articles/Health-Way-Year-Times articles/Health_Way_Year_Times [L,NC,QSA]
+
+RewriteCond %{REQUEST_URI} articles/Health-Way [NC]
+RewriteRule articles/Health-Way articles/Health_Way [L,NC,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [QSA,NC,L]

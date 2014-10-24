@@ -1,0 +1,752 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201201 will be lost/reset.
+# Last config file used to build this data file was /usr/local/etc/awstats/awstats.mc-aster.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2002                
+POS_TIME 2661                
+POS_VISITOR 20246               
+POS_DAY 25011               
+POS_DOMAIN 3485                
+POS_LOGIN 3717                
+POS_ROBOT 3911                
+POS_WORMS 4625                
+POS_EMAILSENDER 4756                
+POS_EMAILRECEIVER 4899                
+POS_SESSION 25707               
+POS_SIDER 25915               
+POS_FILETYPES 5034                
+POS_DOWNLOADS 5292                
+POS_OS 5375                
+POS_BROWSER 5530                
+POS_SCREENSIZE 6144                
+POS_UNKNOWNREFERER 6218                
+POS_UNKNOWNREFERERBROWSER 6612                
+POS_ORIGIN 6781                
+POS_SEREFERRALS 6927                
+POS_PAGEREFS 7108                
+POS_SEARCHWORDS 8130                
+POS_KEYWORDS 11710               
+POS_MISC 2325                
+POS_ERRORS 14501               
+POS_CLUSTER 3573                
+POS_SIDER_404 14635               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20120201005633 1 0 12449416175197
+FirstTime 0
+LastTime 20120131231922
+LastUpdate 20120202000310 1 0 0 0 0
+TotalVisits 140                 
+TotalUnique 98                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 129                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 1 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 23 120 1381511 53 75 502364
+1 6 38 377447 12 25 288306
+2 3 16 115065 17 26 314430
+3 2 5 59190 11 19 206494
+4 5 50 507990 10 18 196400
+5 18 40 546239 21 41 373279
+6 11 42 570091 23 39 487089
+7 5 21 172567 4 8 83515
+8 24 49 452048 10 24 121037
+9 21 57 915496 16 19 295926
+10 38 206 1578615 19 48 351806
+11 25 118 430136 10 17 151354
+12 13 64 851582 12 38 423409
+13 24 145 2080961 22 46 453346
+14 3 30 423542 137 149 793103
+15 6 53 653575 30 44 591481
+16 15 122 1058537 10 14 178620
+17 7 58 726380 13 16 167618
+18 28 158 1660937 18 33 400648
+19 59 242 3319414 28 59 691075
+20 35 268 1474956 6 10 165298
+21 68 326 1543686 12 22 333522
+22 131 596 3603840 25 55 620636
+23 167 727 1591302 32 39 306527
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 737 3551 26095107
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 1
+mc-aster.com 4 4 179845 20120131231922
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 16
+slurp 193 1744151 20120117104214 0
+yandex 123 2859001 20120131225524 0
+googlebot 80 1746695 20120131070951 0
+no_user_agent 42 728651 20120125102001 0
+mail\.ru 18 336214 20120126114244 0
+bot[\s_+:,\.\;\/\\-] 16 298551 20120131135149 0
+w3c_validator 13 273883 20120124003648 0
+python 4 75091 20120121174923 0
+surveybot 3 61728 20120131143240 0
+favicon 2 23185 20120119235259 0
+aport 1 21084 20120123235513 0
+commons\-httpclient 1 20886 20120117103449 0
+libwww 1 21084 20120119232332 0
+baiduspider 1 19560 20120106060156 0
+netcraft 1 0 20120107051542 0
+crawl 1 20886 20120112133717 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+css 523 2663792 0 0
+png 915 6688571 0 0
+ico 6 15300 0 0
+php 35 165269 0 0
+html 125 2631410 0 0
+js 448 1207445 0 0
+xml 1 2052 0 0
+jpg 183 5063484 0 0
+Unknown 576 6571326 0 0
+gif 739 1086458 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/yandex_4ede16aeb83ba4ff.txt 1 0 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 11
+winxp 932
+winlong 83
+winnt 2
+linuxubuntu 1
+linuxfedora 152
+linux 95
+win7 2225
+win95 1
+j2me 16
+win2003 3
+Unknown 41
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 35
+msie6.0 48
+firefox3.6.24 140
+firefox4.0.1 49
+chrome12.0.742.91 16
+firefox3.0.14 1
+firefox4.0 20
+firefox3.5.3 11
+chrome0.4.154.25 1
+opera9.80 483
+msie8.0 117
+chrome5.0.342.5 19
+msie7.0 34
+firefox3.5.8 30
+msie2.0 1
+firefox9.0.1 1486
+firefox3.6.10 13
+chrome16.0.912.63 143
+Unknown 15
+firefox3.6.25 15
+chrome12.0.742 55
+firefox3.6.21 17
+firefox3.6.4 4
+firefox7.0.1 44
+opera9.25 17
+chrome17.0.963.44 16
+firefox1.0.7 1
+chrome16.0.912.75 158
+mozilla 16
+firefox1.0 1
+chrome16.0.912.77 16
+netscape4.0 2
+firefox3.0.19 33
+firefox8.0.1 512
+firefox3.5 1
+chrome15.0.874.106 16
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+Opera/9.80_(Series_60;_Opera_Mini/6.5.27055/26.1305;_U;_ru)_Presto/2.8.119_Version/10.54 20120111140836
+Google-Site-Verification/1.0 20120109222526
+Mozilla/5.0_(compatible;_XML_Sitemaps_Generator;_http://www.xml-sitemaps.com)_Gecko_XML-Sitemaps/1.0 20120109212734
+Acoon_v4.1.0_(www.acoon.de) 20120116080712
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Google-Site-Verification/1.0 20120109222526
+Acoon_v4.1.0_(www.acoon.de) 20120116080712
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 112 195
+From1 0 0
+From2 52 52
+From3 246 1011
+From4 327 2293
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 20 20
+search 1 1
+yandex 31 31
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 22
+https://193.200.173.36/manager/ispmgr 200 894
+http://yandex.kz/yandsearch 8 8
+http://catalog.online.ua 5 5
+http://yandex.by/yandsearch 5 5
+http://catalog.online.ua/health/medication/ 4 4
+http://yandex.ua/yandsearch 4 4
+http://go.mail.ru/search 4 4
+https://193.200.173.36/myadmin/index.php 2 5
+https://193.200.173.36/myadmin/ 2 11
+http://admin.online.ua/catalog/edit/36178/ 2 2
+http://www.niknok.ru/admin/sites.asp 1 1
+http://www.rang.com.ua 1 1
+http://era.com.ua/catalog/cat/28/ 1 1
+http://www.rang.com.ua/mc-aster.com 1 1
+https://193.200.173.36/manimg/sirius/main.css 0 27
+https://193.200.173.36/myadmin/navigation.php 0 10
+http://googleads.g.doubleclick.net/apps/domainpark/results.cgi 1 1
+https://193.200.173.36/myadmin/main.php 1 23
+http://webalta.ru/search 1 1
+http://admin.gigauz.com/Dir/ 1 1
+http://www.nigma.ru 1 1
+http://skachivajsoft71.info/3509-hamachi.html 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 30
+%eb%e8%ed%f7%e6%e8+%ea%ee%f0%e4%e8%f6%e5%ef%f1 10
+%f7%e5%f0%ed%e0%ff+%e6%e5%ec%f7%f3%e6%e8%ed%e0 3
+mcaster 3
+%f4%e8%f0%ec%e0+aster 3
+%fd%ea%f1%f2%f0%e0%ea%f2 2
+www.mcaster.net 2
+aster 1
+%d0%bc%d0%ba+%d0%b0%d1%81%d1%82%d0%b5%d1%80 1
+%d0%b2%d0%bb%d0%b8%d1%8f%d0%bd%d0%b8%d0%b5+%d0%b2%d0%bd%d0%b5%d1%88%d0%bd%d0%b8%d1%85+%d1%83%d1%81%d0%bb%d0%be%d0%b2%d0%b8%d0%b9+%d0%bd%d0%b0+%d0%be%d0%b1%d1%80%d0%b0%d0%b7%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5+%d0%b8+%d0%bd%d0%b0%d0%ba%d0%be%d0%bf%d0%bb%d0%b5%d0%bd%d0%b8%d0%b5+%d0%b4%d0%b5%d0%b9%d1%81%d1%82%d0%b2%d1%83%d1%8e%d1%89%d0%b8%d1%85+%d0%b2%d0%b5%d1%89%d0%b5%d1%81%d1%82%d0%b2+%d0%b2+%d0%bb%d0%b5%d0%ba%d0%b0%d1%80%d1%81%d1%82%d0%b2%d0%b5%d0%bd%d0%bd%d1%8b%d1%85+%d1%80%d0%b0%d1%81%d1%82%d0%b5%d0%bd%d0%b8%d1%8f%d1%85 1
+%d0%bc%d1%81+%d0%b0%d1%81%d1%82%d0%b5%d1%80+%d0%b3%d0%be%d1%80+%d0%b4%d0%be%d1%81%d1%82%d1%8c+%d0%be%d0%ba%d0%b5%d0%b0%d0%bd%d0%b0 1
+aster@aster.poznan.pl 1
+%d0%bf%d1%80%d0%be%d0%bf%d0%be%d0%bb%d0%b8%d1%81+%d0%bb%d0%b8%d0%bd%d1%87%d0%b6%d0%b8 1
+%d1%84%d0%b8%d0%bb%d0%be%d1%81%d0%be%d1%84%d0%b8%d1%8f+%d0%bc%d0%b0%d1%80%d0%ba%d0%b5%d1%82%d0%b8%d0%bd%d0%b3%d0%be%d0%b2%d0%be%d0%b9+%d0%ba%d0%be%d0%bc%d0%bf%d0%b0%d0%bd%d0%b8%d0%b8 1
+%d0%90%d1%81%d1%82%d0%b5%d1%80%d0%b0+%d0%ba%d0%b0%d0%bb%d1%8c%d1%86%d0%b8%d0%b9 1
+%d1%8d%d0%ba%d1%81%d1%82%d1%80%d0%b0%d0%ba%d1%82+%d0%ba%d0%be%d1%80%d0%b5%d0%b9%d1%81%d0%be%d0%b3%d0%be+%d0%b3%d1%80%d0%b8%d0%b1%d0%b0+%d0%bb%d0%b8%d0%bd%d1%87%d0%b6%d0%b8 1
+%d1%87%d0%b0%d0%b9%d0%bd%d1%8b%d0%b9+%d0%b1%d0%b0%d0%bb%d1%8c%d0%b7%d0%b0%d0%bc+%d0%ba%d0%be%d0%bc%d0%bf%d0%b0%d0%bd%d0%b8%d0%b8+%d0%9c%d0%9a+aster 1
+%d0%9c%d0%b5%d0%b6%d0%b4%d1%83%d0%bd%d0%b0%d1%80%d0%be%d0%b4%d0%bd%d0%b0%d1%8f+%d0%ba%d0%be%d0%bc%d0%bf%d0%b0%d0%bd%d0%b8%d1%8f+aster 1
+%d0%bc%d0%b0%d1%80%d0%ba%d0%b5%d1%82%d0%b8%d0%bd%d0%b3%d0%be%d0%b2%d1%8b%d0%b5+%d0%bc%d0%b5%d0%b6%d0%b4%d1%83%d0%bd%d0%b0%d1%80%d0%be%d0%b4%d0%bd%d1%8b%d0%b5+%d0%ba%d0%be%d0%bc%d0%bf%d0%b0%d0%bd%d0%b8%d0%b8 1
+%d1%83%d1%81%d0%bf%d0%b5%d1%88%d0%bd%d1%8b%d0%b5+%d1%81%d0%bf%d0%be%d0%bd%d1%81%d0%be%d1%80%d1%8b+%d0%b0%d1%81%d1%82%d0%b5%d1%80 1
+mc.aster 1
+mc-aster.com 1
+%d0%bf%d1%80%d0%be%d1%82%d0%b8%d0%b2%d0%be%d0%be%d0%bf%d1%83%d1%85%d0%be%d0%bb%d0%b5%d0%b2%d1%8b%d0%b9+%d1%8d%d1%84%d1%84%d0%b5%d0%ba%d1%82+%d0%ba%d0%be%d0%bc%d0%bf%d0%be%d0%bd%d0%b5%d0%bd%d1%82%d0%be%d0%b2+%d0%b2%d1%8b%d1%81%d1%88%d0%b8%d1%85+%d0%bb%d0%b5%d0%ba%d0%b0%d1%80%d1%81%d1%82%d0%b2%d0%b5%d0%bd%d0%bd%d1%8b%d1%85+%d0%b3%d1%80%d0%b8%d0%b1%d0%be%d0%b2+%d0%ba%d0%be%d1%80%d0%b4%d0%b8%d1%86%d0%b5%d0%bf%d1%81+%d0%b8+%d0%bb%d0%b8%d0%bd%d1%87%d0%b6%d0%b8 1
+%d1%8d%d0%ba%d1%81%d1%82%d1%80%d0%b0%d0%ba%d1%82+%d0%bb%d0%b8%d0%bd%d1%87%d0%b6%d0%b8 1
+mc+aster+%d0%bc%d0%b5%d0%b6%d0%b4%d1%83%d0%bd%d0%b0%d1%80%d0%be%d0%b4%d0%bd%d0%b0%d1%8f+%d0%bc%d0%b0%d1%80%d0%ba%d0%b5%d1%82%d0%b8%d0%bd%d0%b3%d0%be%d0%b2%d0%b0%d1%8f+%d0%ba%d0%be%d0%bc%d0%bf%d0%b0%d0%bd%d0%b8%d1%8f 1
+%d1%8d%d0%ba%d1%81%d1%82%d1%80%d0%b0%d0%ba%d1%82+%d0%b3%d1%80%d0%b8%d0%b1%d1%8b+%d0%bb%d0%b8%d0%bd%d1%87%d0%b6%d0%b8 1
+%d0%bc%d0%b5%d0%b6%d0%b4%d1%83%d0%bd%d0%b0%d1%80%d0%be%d0%b4%d0%bd%d0%b0%d1%8f+%d0%ba%d0%be%d0%bc%d0%bf%d0%b0%d0%bd%d0%b8%d1%8f+aster 1
+%d1%8d%d0%ba%d1%81%d1%82%d1%80%d0%b0%d1%82+%d0%bb%d0%b8%d0%bd%d1%87%d0%b6%d0%b8 1
+%d1%8d%d0%bd%d0%b5%d1%80%d0%b3%d0%b8%d1%8f+%d0%b6%d0%b8%d0%b7%d0%bd%d0%b8+%d0%ba%d0%b0%d0%bf%d1%81%d1%83%d0%bb%d1%8b 1
+066-958-50-94 1
+%d0%bf%d1%80%d0%be%d0%b4%d1%83%d0%ba%d1%86%d0%b8%d1%8f+%d0%b0%d1%81%d1%82%d0%b5%d1%80 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 65
+%ea%ee%f0%e4%e8%f6%e5%ef%f1 10
+%eb%e8%ed%f7%e6%e8 10
+aster 8
+%d0%bb%d0%b8%d0%bd%d1%87%d0%b6%d0%b8 6
+%d0%b0%d1%81%d1%82%d0%b5%d1%80 4
+%e6%e5%ec%f7%f3%e6%e8%ed%e0 3
+%d0%ba%d0%be%d0%bc%d0%bf%d0%b0%d0%bd%d0%b8%d0%b8 3
+mcaster 3
+%d1%8d%d0%ba%d1%81%d1%82%d1%80%d0%b0%d0%ba%d1%82 3
+%f4%e8%f0%ec%e0 3
+%d0%b3%d1%80%d0%b8%d0%b1%d1%8b 1
+mc 1
+%d0%ba%d0%be%d1%80%d0%b5%d0%b9%d1%81%d0%be%d0%b3%d0%be 1
+%d0%bf%d1%80%d0%be%d0%b4%d1%83%d0%ba%d1%86%d0%b8%d1%8f 1
+%d1%84%d0%b8%d0%bb%d0%be%d1%81%d0%be%d1%84%d0%b8%d1%8f 1
+%d0%b2%d1%8b%d1%81%d1%88%d0%b8%d1%85 1
+%d0%9c%d0%9a 1
+%d1%87%d0%b0%d0%b9%d0%bd%d1%8b%d0%b9 1
+%d0%ba%d0%b0%d0%bb%d1%8c%d1%86%d0%b8%d0%b9 1
+%d0%bb%d0%b5%d0%ba%d0%b0%d1%80%d1%81%d1%82%d0%b2%d0%b5%d0%bd%d0%bd%d1%8b%d1%85 2
+%d0%b2%d0%b5%d1%89%d0%b5%d1%81%d1%82%d0%b2 1
+mc-aster.com 1
+%d0%b4%d0%b5%d0%b9%d1%81%d1%82%d0%b2%d1%83%d1%8e%d1%89%d0%b8%d1%85 1
+%d0%bf%d1%80%d0%be%d1%82%d0%b8%d0%b2%d0%be%d0%be%d0%bf%d1%83%d1%85%d0%be%d0%bb%d0%b5%d0%b2%d1%8b%d0%b9 1
+%d0%bd%d0%b0%d0%ba%d0%be%d0%bf%d0%bb%d0%b5%d0%bd%d0%b8%d0%b5 1
+%d0%b2%d0%bb%d0%b8%d1%8f%d0%bd%d0%b8%d0%b5 1
+%d0%bc%d0%ba 1
+%d0%b1%d0%b0%d0%bb%d1%8c%d0%b7%d0%b0%d0%bc 1
+%d0%b4%d0%be%d1%81%d1%82%d1%8c 1
+066-958-50-94 1
+www.mcaster.net 2
+aster@aster.poznan.pl 1
+%d0%b2%d0%bd%d0%b5%d1%88%d0%bd%d0%b8%d1%85 1
+%d0%bf%d1%80%d0%be%d0%bf%d0%be%d0%bb%d0%b8%d1%81 1
+%d0%b3%d0%be%d1%80 1
+%d1%8d%d0%ba%d1%81%d1%82%d1%80%d0%b0%d1%82 1
+%d0%ba%d0%be%d0%bc%d0%bf%d0%b0%d0%bd%d0%b8%d1%8f 3
+%d1%83%d1%81%d0%bf%d0%b5%d1%88%d0%bd%d1%8b%d0%b5 1
+%d0%be%d0%b1%d1%80%d0%b0%d0%b7%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5 1
+%d0%bc%d0%b0%d1%80%d0%ba%d0%b5%d1%82%d0%b8%d0%bd%d0%b3%d0%be%d0%b2%d0%be%d0%b9 1
+%d0%90%d1%81%d1%82%d0%b5%d1%80%d0%b0 1
+%d0%b6%d0%b8%d0%b7%d0%bd%d0%b8 1
+%d0%b8 2
+%d0%bc%d0%b5%d0%b6%d0%b4%d1%83%d0%bd%d0%b0%d1%80%d0%be%d0%b4%d0%bd%d0%b0%d1%8f 2
+%d0%bc%d0%b0%d1%80%d0%ba%d0%b5%d1%82%d0%b8%d0%bd%d0%b3%d0%be%d0%b2%d1%8b%d0%b5 1
+%d0%b2 1
+%d0%9c%d0%b5%d0%b6%d0%b4%d1%83%d0%bd%d0%b0%d1%80%d0%be%d0%b4%d0%bd%d0%b0%d1%8f 1
+%f7%e5%f0%ed%e0%ff 3
+%d0%be%d0%ba%d0%b5%d0%b0%d0%bd%d0%b0 1
+%d0%bc%d0%b0%d1%80%d0%ba%d0%b5%d1%82%d0%b8%d0%bd%d0%b3%d0%be%d0%b2%d0%b0%d1%8f 1
+%d1%8d%d1%84%d1%84%d0%b5%d0%ba%d1%82 1
+%d0%bc%d1%81 1
+%d1%8d%d0%bd%d0%b5%d1%80%d0%b3%d0%b8%d1%8f 1
+%d0%bd%d0%b0 1
+%d0%b3%d1%80%d0%b8%d0%b1%d0%b0 1
+%d0%bc%d0%b5%d0%b6%d0%b4%d1%83%d0%bd%d0%b0%d1%80%d0%be%d0%b4%d0%bd%d1%8b%d0%b5 1
+%d1%81%d0%bf%d0%be%d0%bd%d1%81%d0%be%d1%80%d1%8b 1
+%d0%ba%d0%be%d1%80%d0%b4%d0%b8%d1%86%d0%b5%d0%bf%d1%81 1
+%d0%b3%d1%80%d0%b8%d0%b1%d0%be%d0%b2 1
+%d1%80%d0%b0%d1%81%d1%82%d0%b5%d0%bd%d0%b8%d1%8f%d1%85 1
+mc.aster 1
+%d0%ba%d0%b0%d0%bf%d1%81%d1%83%d0%bb%d1%8b 1
+%fd%ea%f1%f2%f0%e0%ea%f2 2
+%d1%83%d1%81%d0%bb%d0%be%d0%b2%d0%b8%d0%b9 1
+%d0%ba%d0%be%d0%bc%d0%bf%d0%be%d0%bd%d0%b5%d0%bd%d1%82%d0%be%d0%b2 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+401 21 8421
+302 1 0
+500 3 2304
+400 42 19152
+404 265 197854
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 141
+/yandex_4ede16aeb83ba4ff.txt 2 http://webmaster.yandex.ua/site/verification.xml
+//phpMyAdmin-2.5.5-pl1/index.php 1 -
+//phpMyAdmin-2.5.6-rc2/index.php 1 -
+//web/phpMyAdmin/index.php 1 -
+/admin/config.php 8 -
+//phpMyAdmin-2.8.0-beta1/scripts/setup.php 1 -
+//phpMyAdmin-2.6.4-pl1/scripts/setup.php 1 -
+//sqlweb/scripts/setup.php 1 -
+//phpMyAdmin-2.8.0.2/scripts/setup.php 1 -
+//phpMyAdmin-2/scripts/setup.php 1 -
+//phpMyAdmin-2.6.2-beta1/scripts/setup.php 1 -
+//phpMyAdmin-2.6.1/scripts/setup.php 1 -
+//phpMyAdmin-2.5.1/index.php 1 -
+//phpMyAdmin-2.2.6/scripts/setup.php 1 -
+//phpMyAdmin-2.6.0-pl1/scripts/setup.php 1 -
+//phpMyAdmin-2.7.0-pl2/scripts/setup.php 1 -
+//phpMyAdmin/index.php 2 -
+/myadmin/config/config.inc.php 2 -
+//web/index.php 1 -
+//phpMyAdmin-2.6.2-pl1/scripts/setup.php 1 -
+//phpMyAdmin-2.6.4-pl2/scripts/setup.php 1 -
+//phpMyAdmin-2.7.0-beta1/scripts/setup.php 1 -
+//phpMyAdmin-2.6.0-beta1/scripts/setup.php 1 -
+//phpmanager/scripts/setup.php 1 -
+//phpMyAdmin-2.6.1-rc2/scripts/setup.php 1 -
+//admin/pma/index.php 2 -
+//phpMyAdmin-2.7.0-pl1/scripts/setup.php 1 -
+//phpMyAdmin-2.8.0.1/scripts/setup.php 1 -
+//phpMyAdmin-2.6.0-alpha2/scripts/setup.php 1 -
+//pma/index.php 1 -
+//web/phpMyAdmin/scripts/setup.php 1 -
+//phpmyadmin1/scripts/setup.php 1 -
+//admn/scripts/setup.php 1 -
+//phpadmin/index.php 1 -
+//phpMyAdmin-2.8.0/scripts/setup.php 1 -
+//webdb/scripts/setup.php 1 -
+//admm/scripts/setup.php 1 -
+//mysql-admin/scripts/setup.php 1 -
+//phpMyAdmin-2.7.0-rc1/scripts/setup.php 1 -
+/wp-login.php 2 -
+//phpMyAdmin-2.6.3-rc1/scripts/setup.php 1 -
+//pma/scripts/setup.php 1 -
+/admin/cdr/counter.txt 2 -
+//phpMyAdmin-2.6.4-rc1/scripts/setup.php 1 -
+//phpmyadmin/scripts/setup.php 3 -
+//phpMyAdmin-2.8.2/scripts/setup.php 1 -
+//webadmin/scripts/setup.php 1 -
+//phpMyAdmin-2.5.1/scripts/setup.php 1 -
+/yandex_bc10e22c6f199d7b.txt 1 -
+//phpMyAdmin-2.6.2-rc1/scripts/setup.php 2 -
+//mysqladmin/scripts/setup.php 2 -
+//mysqladmin/index.php 1 -
+//phpMyAdmin-2.8.0-rc2/scripts/setup.php 1 -
+//databaseadmin/scripts/setup.php 1 -
+//admin/pma/scripts/setup.php 1 -
+//myadmin/scripts/setup.php 1 -
+//phpMyAdmin-2.6.0/scripts/setup.php 1 -
+//phpmyadmin1/index.php 1 -
+//phpMyAdmin-2.6.3-pl1/scripts/setup.php 1 -
+//pma2005/scripts/setup.php 1 -
+//phpmyadmin/index.php 2 -
+//phpMyAdmin-2.5.6-rc1/scripts/setup.php 1 -
+//dbadmin/scripts/setup.php 1 -
+//phpMyAdmin-2.6.0-pl2/scripts/setup.php 1 -
+//phpmyadmin2/index.php 1 -
+//phpMyAdmin-2.8.0.3/scripts/setup.php 1 -
+//phpMyAdmin-2.6.0-rc1/scripts/setup.php 1 -
+//typo3/phpmyadmin/index.php 1 -
+//phpMyAdmin-2/index.php 1 -
+//phpMyAdmin-2.6.0-rc2/scripts/setup.php 1 -
+//phpMyAdmin-2.6.4/scripts/setup.php 1 -
+//admin/phpmyadmin/index.php 1 -
+//phpMyAdmin-2.6.2/scripts/setup.php 1 -
+//phpMyAdmin-2.6.0-alpha/scripts/setup.php 1 -
+//admin/index.php 2 -
+//mysql/index.php 1 -
+//mysqlmanager/scripts/setup.php 1 -
+/robots.txt 87 -
+//scripts/setup.php 2 -
+/manager/fsh-bottom.png 2 https://193.200.173.36/manager/ispmgr
+//phpMyAdmin-2.8.1-rc1/scripts/setup.php 1 -
+//php-myadmin/scripts/setup.php 1 -
+/manager/fsh-left2.png 2 https://193.200.173.36/manager/ispmgr
+//phpMyAdmin-2.6.0-beta2/scripts/setup.php 1 -
+//phpMyAdmin-2.8.1/scripts/setup.php 1 -
+//phpMyAdmin-2.5.5-rc1/scripts/setup.php 1 -
+//php-my-admin/scripts/setup.php 2 -
+//phpadmin/scripts/setup.php 1 -
+/yandex_2cbe4a34ab0fc136.txt 1 -
+/translators.html 1 -
+/yandex_62c43690408898b6.txt 1 -
+//phpMyAdmin-2.8.0-rc1/scripts/setup.php 1 -
+//PMA2005/scripts/setup.php 1 -
+//phpMyAdmin-2.5.7-pl1/scripts/setup.php 1 -
+//phpMyAdmin-2.2.3/scripts/setup.php 1 -
+//admin/scripts/setup.php 1 -
+/myadmin/scripts/setup.php 4 http://mc-aster.com/myadmin/scripts/setup.php
+//phpmy-admin/scripts/setup.php 1 -
+//p/m/a/scripts/setup.php 1 -
+/phpmyadmin/translators.html 1 -
+//phpMyAdmin-2.5.7/index.php 1 -
+//web/scripts/setup.php 1 -
+//sqlmanager/scripts/setup.php 1 -
+//phpMyAdmin-2.5.7-pl1/index.php 1 -
+//websql/scripts/setup.php 2 -
+//dbadmin/index.php 2 -
+//phpMyAdmin-2.8.0.4/scripts/setup.php 1 -
+/manager/fsh-left.png 2 https://193.200.173.36/manager/ispmgr
+//phpmyadmin2/scripts/setup.php 1 -
+//phpMyAdmin-2.5.5-pl1/scripts/setup.php 1 -
+//phpMyAdmin-2.5.7/scripts/setup.php 1 -
+//phpMyAdmin-2.7.0/scripts/setup.php 1 -
+//phpMyAdmin-2.5.5-rc2/scripts/setup.php 1 -
+//phpMyAdmin-2.6.1-pl1/scripts/setup.php 1 -
+//phpMyAdmin-2.5.5/scripts/setup.php 1 -
+//php-my-admin/index.php 2 -
+//xampp/phpmyadmin/scripts/setup.php 1 -
+/admin/Y-ivrrecording.php 2 -
+//phpMyAdmin-2.5.4/scripts/setup.php 1 -
+/muieblackcat 4 -
+//phpMyAdmin-2.6.0-pl3/scripts/setup.php 1 -
+//phpMyAdmin-2.6.0-rc3/scripts/setup.php 1 -
+//phpMyAdmin-2.6.1-rc1/scripts/setup.php 1 -
+//db/scripts/setup.php 1 -
+//phpMyAdmin-2.6.4-pl3/scripts/setup.php 1 -
+//phpMyAdmin-2.5.6-rc2/scripts/setup.php 1 -
+//phpMyAdmin-2.2.3/index.php 1 -
+//phpMyAdmin-2.6.3/scripts/setup.php 2 -
+//admin/phpmyadmin/scripts/setup.php 1 -
+//phpMyAdmin-2.5.5-rc2/index.php 1 -
+//phpMyAdmin-2.5.6/scripts/setup.php 1 -
+//phpMyAdmin-2.6.1-pl2/scripts/setup.php 1 -
+//typo3/phpmyadmin/scripts/setup.php 1 -
+//phpMyAdmin-2.2.6/index.php 1 -
+//phpMyAdmin-2.6.1-pl3/scripts/setup.php 1 -
+//phpMyAdmin-2.6.4-pl4/scripts/setup.php 1 -
+//websql/index.php 1 -
+//db/index.php 2 -
+//mysql/scripts/setup.php 2 -
+//phpMyAdmin/scripts/setup.php 2 -
+//gitweb/index.cgi 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 129
+91.219.55.120 389 1844 7541253 20120131231922
+109.167.57.116 21 110 278643 20120110110835
+213.167.218.26 17 44 1059854 20120127194257
+89.21.94.194 17 140 256320 20120119201955
+182.48.17.237 15 15 57234 20120125102014
+114.141.2.44 15 15 57234 20120115082915
+85.92.84.232 14 14 285704 20120109212734
+195.34.196.39 14 54 1080983 20120124135552
+176.9.87.106 13 13 271482 20120116080712
+46.118.118.181 13 87 231364 20120120100849
+95.132.160.12 2 16 192790 20120129201615
+176.36.52.108 1 1 21084 20120121203048
+94.253.86.11 1 4 47592 20120131081301
+74.125.16.158 1 2 20502 20120121173043
+84.240.248.158 1 17 167497 20120121040050
+178.124.147.95 4 23 338634 20120116204117
+178.124.68.75 1 16 170860 20120126002838
+74.125.16.154 0 1 848 
+178.90.229.10 1 15 130342 20120120070246
+74.125.78.84 0 2 98 
+193.33.26.24 1 16 182569 20120130134944
+176.214.18.233 1 5 99819 20120124164611
+74.125.78.91 0 2 39924 
+95.221.117.239 2 8 118298 20120116213305
+95.221.123.94 3 21 216352 20120114171042
+92.113.63.74 5 22 273527 20120118050026
+89.254.229.111 1 17 182489 20120119155233
+188.120.224.47 1 1 0 20120109005244
+74.125.16.152 0 3 54488 
+81.176.228.66 2 2 41772 20120115190119
+74.125.16.148 0 1 19349 
+85.117.224.62 1 16 130390 20120125040046
+74.125.16.156 0 2 18190 
+2.133.184.13 1 17 194634 20120112175054
+86.111.78.60 4 22 314137 20120125175234
+74.125.16.161 0 1 848 
+74.125.16.160 0 1 18065 
+216.12.205.2 1 1 20886 20120117224753
+94.27.115.163 1 1 20886 20120111225501
+195.64.225.244 2 2 41772 20120116230628
+46.227.184.195 0 2 131473 
+95.29.176.208 1 16 320352 20120113103931
+46.227.184.197 0 2 1232 
+95.221.122.255 1 13 118652 20120116010142
+72.94.249.38 1 1 21084 20120121080446
+193.16.45.74 4 21 262575 20120110112100
+77.79.190.194 1 16 180516 20120124085306
+89.28.26.2 1 15 182249 20120117150734
+178.90.224.84 1 15 182444 20120128202241
+74.125.78.83 0 5 57889 
+188.163.64.77 1 1 21182 20120129165945
+46.227.184.202 0 3 31989 
+74.125.16.145 0 1 19349 
+46.227.184.207 0 3 18011 
+178.90.57.128 1 16 130390 20120124204212
+82.145.209.7 2 12 198516 20120111140835
+92.241.116.73 6 27 457742 20120123001642
+91.78.39.180 3 18 295838 20120125184517
+77.52.222.120 3 19 238725 20120126101931
+74.125.78.95 0 1 848 
+74.125.78.93 0 1 7570 
+94.45.131.13 4 4 83544 20120113093634
+178.90.220.20 2 20 258624 20120115201637
+69.58.178.57 11 11 232074 20120124054628
+74.125.78.85 1 2 22030 20120130105102
+77.93.57.166 1 17 189400 20120127221756
+77.121.229.215 2 20 211159 20120120193704
+94.100.189.220 1 4 47390 20120111202516
+95.56.7.216 5 23 325754 20120119190048
+95.132.49.42 1 16 170378 20120130231914
+213.238.8.13 1 4 21257 20120127101540
+74.125.78.88 0 1 6617 
+31.40.229.10 1 18 225026 20120123143619
+46.227.184.194 1 2 38726 20120111101628
+74.125.78.89 0 2 35599 
+74.52.245.146 1 1 21084 20120129124911
+91.215.79.84 1 17 132491 20120130105527
+74.125.16.147 0 4 80516 
+95.58.203.155 1 17 194833 20120120064909
+95.221.93.65 1 3 41280 20120113013922
+85.17.213.242 2 2 41772 20120113003449
+94.245.156.50 9 34 560316 20120117124022
+74.125.78.80 0 1 6617 
+46.73.4.89 5 29 367439 20120117222415
+94.27.64.230 12 15 277946 20120118090701
+46.61.160.58 1 14 114983 20120118025607
+178.93.58.54 1 16 130390 20120129161121
+74.125.16.155 1 2 24309 20120120094308
+178.90.9.97 8 28 449646 20120119201211
+178.216.103.105 4 26 282857 20120125133758
+74.125.78.81 0 1 7099 
+38.100.21.12 1 1 20886 20120113160541
+74.125.16.151 0 3 10566 
+66.197.181.48 1 1 20886 20120113215229
+91.232.12.86 1 15 128289 20120131125948
+46.227.184.192 0 3 2998 
+2.133.166.212 3 19 224194 20120116195919
+74.125.78.86 0 2 21407 
+46.119.32.130 1 1 20886 20120114063357
+74.125.16.153 0 3 7485 
+178.90.28.96 8 26 258484 20120130193021
+195.18.13.213 1 15 182444 20120122135239
+91.193.177.9 4 19 261737 20120124061837
+95.24.170.208 2 8 118298 20120116052929
+85.26.241.214 7 27 447729 20120128092513
+217.118.78.36 1 17 194869 20120110183150
+188.163.24.140 1 1 21084 20120123074822
+74.125.16.146 0 2 10912 
+74.125.16.157 0 2 7670 
+89.139.182.122 2 17 229413 20120127161526
+66.102.12.92 1 1 20886 20120109222526
+74.125.16.149 0 2 13928 
+176.14.117.237 1 14 120719 20120127135253
+93.80.119.48 1 3 29527 20120131061611
+92.113.58.243 2 17 206852 20120109005818
+74.125.16.159 1 1 19481 20120119215539
+91.214.97.253 4 36 390986 20120116183506
+74.125.78.92 0 2 64292 
+74.125.16.144 0 1 81643 
+80.239.243.168 2 16 160559 20120122165136
+93.72.246.53 8 8 168708 20120119232559
+188.93.130.20 2 18 191510 20120123053954
+95.26.104.32 1 4 47592 20120127001737
+94.27.65.223 1 1 20960 20120118011056
+213.238.9.7 2 16 210311 20120125153903
+74.125.78.90 0 1 873 
+66.102.12.82 1 1 20886 20120109222502
+2.133.184.60 3 20 231389 20120112131114
+178.122.189.83 4 51 225273 20120113162702
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 26
+20120102 65 282 1423221 1
+20120104 2 18 212883 1
+20120108 15 61 670348 2
+20120109 49 151 1400780 8
+20120110 46 300 1614124 4
+20120111 19 47 535279 8
+20120112 4 37 426023 2
+20120113 17 81 828289 12
+20120114 6 24 276563 6
+20120115 24 57 582397 7
+20120116 21 113 1388384 11
+20120117 69 322 1533963 9
+20120118 21 55 689292 5
+20120119 101 572 2454827 8
+20120120 27 195 1608716 7
+20120121 5 54 544398 5
+20120122 6 63 406428 3
+20120123 10 64 895362 4
+20120124 140 557 2896918 8
+20120125 29 113 1290767 6
+20120126 4 35 409585 2
+20120127 23 100 1668235 6
+20120128 8 42 630173 2
+20120129 5 34 365446 4
+20120130 12 90 905568 5
+20120131 9 84 437138 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 3
+5mn-15mn 8
+30s-2mn 11
+2mn-5mn 13
+15mn-30mn 5
+0s-30s 92
+30mn-1h 8
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 26
+/manager/ispmgr 331 967506 9 10
+/ 120 2444000 67 48
+/contacts 43 515077 8 16
+/production/Cordyceps-Lingzhi 42 1367078 18 21
+/business 34 574205 2 5
+/myadmin/index.php 31 117108 2 2
+/production/Black-Pearl-Cordyceps 20 446668 8 8
+/production/Vital-Energy 16 305743 3 5
+/production/Propolis-Lingzhi 16 317251 8 4
+/production/Ocean-Pride 15 297816 1 3
+/webstat/index.122011.html 1 81535 0 0
+/sitemap.xml 1 2052 0 0
+/production/First-Fort 11 259225 3 4
+/myadmin/js/messages.php 2 13236 0 0
+/production/Golden-Pearl 13 257704 1 3
+/mancgi/upload 1 60 0 0
+/myadmin/main.php 1 30564 0 0
+/production/Dragon-Power 13 249136 4 4
+/myadmin/navigation.php 1 4361 0 0
+/myadmin/ 1 7565 0 0
+/webstat/ 1 4430 0 0
+/webstat/index.012012.html 1 86278 0 0
+/production/Light-Dream 11 230193 3 4
+/webstat/awstats.mc-aster.com.allrobots.012012.html 1 7602 0 1
+/mancgi/download 2 601424 0 0
+/production/Kings-Secret 8 182240 3 2
+END_SIDER
