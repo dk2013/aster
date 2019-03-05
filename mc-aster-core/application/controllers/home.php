@@ -1,9 +1,4 @@
 <?php
-/*
-Каталог книг.
-Автор: Стаценко Владимир
-site: http://www.simplecoding.org
-*/
 class Home extends AC_Controller {
 	
 	function __construct() {
